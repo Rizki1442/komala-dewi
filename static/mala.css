@@ -1,0 +1,76 @@
+.navbar {
+    background-color:rgb(9, 9, 42);
+}
+
+#produk h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+.kontak {
+    background-color: rgb(9, 9, 42);
+}
+
+.footer{
+    background-color: rgb(9, 9, 42);
+}
+
+@media (max-width: 768px) {
+    #home .logo-container {
+        position: relative; /* Memastikan logo berada di atas teks */
+        top: 0;
+        transform: none;
+        margin-bottom: 30px; /* Menambahkan jarak antara logo dan teks */
+    }
+
+    #home .logo-container img {
+        width: 100%;  /* Menyesuaikan ukuran logo untuk tampilan mobile */
+        max-width: 500px;
+    }
+
+    .container {
+        margin-top: 0; /* Menghilangkan margin atas yang terlalu besar */
+    }
+}
+
