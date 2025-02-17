@@ -2,6 +2,10 @@
     background-color:rgb(9, 9, 42);
 }
 
+.navbar-toggler-icon{
+    color: white;
+}
+
 #produk h2 {
     font-family: 'Arial', sans-serif;
     font-size: 2.5rem;
